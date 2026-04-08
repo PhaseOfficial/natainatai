@@ -58,7 +58,7 @@ const CookieConsent = () => {
 
             <button
               onClick={handleAccept}
-              className="anti-button bg-primary text-oat px-6 py-2 font-headline font-bold text-xs uppercase tracking-widest shadow-[4px_4px_0px_0px_#124A17]"
+              className="anti-button bg-primary text-oat px-6 py-2 font-headline font-bold text-xs uppercase tracking-widest shadow-[4px_4px_0px_0px_#543D28]"
             >
               ACCEPT
             </button>

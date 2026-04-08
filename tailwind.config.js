@@ -22,7 +22,8 @@ export default {
       colors: {
         "oat": "#F9F9F9",
         "oat-dark": "#F3F3F3",
-        "oatly-blue": "#124A17",
+        "archive-brown": "#543D28",
+        "archive-brown-light": "#8D6E63",
         "primary": "#1B1B1B",
         "surface": "#F9F9F9",
         "on-surface": "#1B1B1B",

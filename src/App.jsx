@@ -3,6 +3,8 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Collection from "./pages/Collection";
 import ProductDetail from "./pages/ProductDetail";
+import Profile from "./pages/Profile";
+import Voice from "./pages/Voice";
 import Header from "./components/common/Header";
 import BottomNav from "./components/common/BottomNav";
 import Footer from "./components/common/Footer";
@@ -24,7 +26,7 @@ const App = () => {
   }, [location.pathname]);
 
   return (
-    <div className="bg-oat min-h-screen font-body selection:bg-oatly-blue selection:text-white">
+    <div className="bg-oat min-h-screen font-body selection:bg-archive-brown selection:text-white">
       <Header />
       
       <main className="min-h-screen">
@@ -33,6 +35,8 @@ const App = () => {
           <Route path="/about" element={<About />} />
           <Route path="/collection" element={<Collection />} />
           <Route path="/product/:id" element={<ProductDetail />} />
+          <Route path="/profile" element={<Profile />} />
+          <Route path="/voice" element={<Voice />} />
           
           <Route
             path="*"
