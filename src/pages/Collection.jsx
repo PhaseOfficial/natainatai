@@ -3,6 +3,7 @@ import anesuImg from "../assets/Anesu Linen Shirt Dress.jpg";
 import laurenaImg from "../assets/Laurena Linen Set.jpg";
 import nalaniImg from "../assets/Nalani set.jpg";
 import plusSizeImg from "../assets/plus size essentials.jpg";
+import alterationsImg from "../assets/alterations.png";
 
 const Collection = () => {
   return (
@@ -54,7 +55,7 @@ const Collection = () => {
                 <h3 className="font-black text-4xl lg:text-5xl uppercase tracking-tighter leading-[0.8] mb-4 group-hover:italic group-hover:text-archive-brown transition-all">Anesu Linen Shirt Dress</h3>
                 <p className="font-body italic text-xl text-primary/70">Heavy-weight crinkled silk</p>
               </div>
-              <span className="font-black text-3xl tracking-tighter text-primary">€180</span>
+              <span className="font-black text-3xl tracking-tighter text-primary">$180</span>
             </div>
           </article>
 
@@ -77,7 +78,7 @@ const Collection = () => {
                 <h3 className="font-black text-4xl lg:text-5xl uppercase tracking-tighter leading-[0.8] mb-4 group-hover:italic group-hover:text-archive-brown transition-all">Laurena Linen Set</h3>
                 <p className="font-body italic text-xl text-primary/70">Two-piece textured linen</p>
               </div>
-              <span className="font-black text-3xl tracking-tighter text-primary">€220</span>
+              <span className="font-black text-3xl tracking-tighter text-primary">$220</span>
             </div>
           </article>
 
@@ -100,7 +101,7 @@ const Collection = () => {
                 <h3 className="font-black text-4xl lg:text-5xl uppercase tracking-tighter leading-[0.8] mb-4 group-hover:italic group-hover:text-archive-brown transition-all">Nalani Set</h3>
                 <p className="font-body italic text-xl text-primary/70">Regenerative cotton wrap</p>
               </div>
-              <span className="font-black text-3xl tracking-tighter text-primary">€240</span>
+              <span className="font-black text-3xl tracking-tighter text-primary">$240</span>
             </div>
           </article>
 
@@ -120,7 +121,26 @@ const Collection = () => {
                 <h3 className="font-black text-4xl lg:text-5xl uppercase tracking-tighter leading-[0.8] mb-4 group-hover:italic group-hover:text-archive-brown transition-all">Plus Size Essentials</h3>
                 <p className="font-body italic text-xl text-primary/70">Architectural silhouette</p>
               </div>
-              <span className="font-black text-3xl tracking-tighter text-primary">€195</span>
+              <span className="font-black text-3xl tracking-tighter text-primary">$195</span>
+            </div>
+          </article>
+
+          {/* Thrifted Alterations Section */}
+          <article className="group relative lg:mt-12">
+            <div className="relative aspect-[3/4] overflow-hidden irregular-border bg-archive-brown/10 shadow-[12px_12px_0px_0px_#543D28]">
+              <img
+                alt="Thrifted Garment Alterations"
+                className="w-full h-full object-cover grayscale hover:grayscale-0 hover:scale-105 transition-all duration-700"
+                src={alterationsImg}
+              />
+              <div className="absolute top-6 left-6 -rotate-6 bg-primary text-oat font-black text-xs px-4 py-2 uppercase tracking-widest border-2 border-oat shadow-xl">
+                SERVICE
+              </div>
+            </div>
+            <div className="mt-10">
+              <h3 className="font-black text-4xl lg:text-5xl uppercase tracking-tighter leading-[0.8] mb-4 group-hover:italic group-hover:text-archive-brown transition-all">Thrifted Garment Alterations</h3>
+              <p className="font-body italic text-xl text-primary/70 mb-6">Breathing new life into forgotten textures. Bring your archive to ours.</p>
+              <Link to="/voice" className="inline-block font-headline font-bold text-archive-brown wavy-underline text-lg uppercase tracking-widest">Inquire About Craft</Link>
             </div>
           </article>
           

@@ -97,7 +97,7 @@ const Home = () => {
                     <h3 className="font-headline font-black text-2xl lg:text-3xl uppercase tracking-tighter group-hover:text-archive-brown transition-colors">ANESU LINEN SHIRT DRESS</h3>
                     <p className="font-body italic text-archive-brown text-lg">Unbleached Raw Linen</p>
                   </div>
-                  <span className="font-headline font-black text-2xl">€ 180</span>
+                  <span className="font-headline font-black text-2xl">$ 180</span>
                 </div>
               </Link>
               {/* Product 2 */}
@@ -114,7 +114,7 @@ const Home = () => {
                     <h3 className="font-headline font-black text-2xl lg:text-3xl uppercase tracking-tighter group-hover:text-archive-brown transition-colors">NALANI SET</h3>
                     <p className="font-body italic text-archive-brown text-lg">The &quot;Permanent&quot; Fit</p>
                   </div>
-                  <span className="font-headline font-black text-2xl">€ 220</span>
+                  <span className="font-headline font-black text-2xl">$ 220</span>
                 </div>
               </Link>
               {/* Desktop Only Product Placeholder or info */}

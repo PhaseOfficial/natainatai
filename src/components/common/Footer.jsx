@@ -76,7 +76,17 @@ const Footer = () => {
       
       {/* Copyright/Footer Bottom */}
       <div className="max-w-screen-2xl mx-auto mt-24 pt-12 border-t-4 border-primary/20 flex flex-col md:flex-row justify-between items-center gap-8 font-headline font-bold text-xs uppercase tracking-[0.3em] opacity-40">
-        <p>&copy; 2024 NATI NATAI ARCHIVE</p>
+        <div className="flex flex-col md:flex-row items-center gap-4 md:gap-12 text-center md:text-left">
+          <p>&copy; 2026 NATI NATAI ARCHIVE</p>
+          <a 
+            href="https://www.redcupseries.co.zw" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="hover:opacity-100 transition-opacity border-b border-oat/40 pb-1"
+          >
+            WEBSITE BY REDCUPSERIES
+          </a>
+        </div>
         <div className="flex gap-12">
           <a href="#" className="hover:opacity-100 transition-opacity">Privacy</a>
           <a href="#" className="hover:opacity-100 transition-opacity">Terms</a>

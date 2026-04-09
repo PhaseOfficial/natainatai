@@ -11,6 +11,7 @@ import Footer from "./components/common/Footer";
 import CookieConsent from "./components/Cookies";
 import { useEffect } from "react";
 import TagManager from "react-gtm-module";
+import { setupGlobalClickSound } from "./utils/audio";
 
 const tagManagerArgs = {
   gtmId: "GTM-PKXK7LPV",
@@ -24,6 +25,11 @@ const App = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [location.pathname]);
+
+  useEffect(() => {
+    const cleanup = setupGlobalClickSound();
+    return cleanup;
+  }, []);
 
   return (
     <div className="bg-oat min-h-screen font-body selection:bg-archive-brown selection:text-white">

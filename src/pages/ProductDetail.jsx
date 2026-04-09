@@ -52,7 +52,7 @@ const ProductDetail = () => {
                 ANESU<br />LINEN SHIRT<br />DRESS.
               </h2>
               <div className="flex justify-between items-center">
-                <span className="text-4xl md:text-5xl font-black italic tracking-tighter">€180.00</span>
+                <span className="text-4xl md:text-5xl font-black italic tracking-tighter">$180.00</span>
                 <span className="font-body italic text-2xl rotate-3 bg-oat-dark px-4 py-1 border-2 border-primary">In stock, barely.</span>
               </div>
             </div>
